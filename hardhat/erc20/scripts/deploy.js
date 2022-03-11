@@ -27,13 +27,13 @@ async function main() {
         (await deployerWallet.getBalance()).toString()
     );
 
-    const WatermelonToken = await hre.ethers.getContractFactory("WatermelonToken");
-    const watermelonToken = await WatermelonToken
+    const Multicall = await hre.ethers.getContractFactory("Multicall");
+    const multicall = await Multicall
         .connect(deployerWallet)
-        .deploy(1000000);
-    await watermelonToken.deployed();
+        .deploy(1);
+    await Multicall.deployed();
 
-    console.log("WatermelonToken deployed to:", watermelonToken.address);
+    console.log("Multicall deployed to:", Multicall.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

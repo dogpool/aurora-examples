@@ -1,42 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/WatermelonToken.sol": {
-      "lastModificationDate": 1646691575960,
-      "contentHash": "4e1e3ee65578c817dcdd27684e0a54ed",
-      "sourceName": "contracts/WatermelonToken.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "WatermelonToken"
-      ]
-    },
     "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
       "lastModificationDate": 1646692825360,
       "contentHash": "715cc034a225c8fc445e2f4299111d75",
@@ -177,6 +141,183 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/ds-test/demo/demo.sol": {
+      "lastModificationDate": 1646953465003,
+      "contentHash": "06c63e9c41bd610dc11246cab6dc550c",
+      "sourceName": "contracts/ds-test/demo/demo.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../src/test.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DemoTest",
+        "DemoTestWithSetUp"
+      ]
+    },
+    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/ds-test/src/test.sol": {
+      "lastModificationDate": 1646953465004,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "contracts/ds-test/src/test.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSTest"
+      ]
+    },
+    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/Multicall.t.sol": {
+      "lastModificationDate": 1646953675952,
+      "contentHash": "e6dd0dd77ad8a20050e7b21e74340c9a",
+      "sourceName": "contracts/Multicall.t.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ds-test/src/test.sol",
+        "./Multicall.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "MulticallTest",
+        "Store"
+      ]
+    },
+    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/Multicall.sol": {
+      "lastModificationDate": 1646951543339,
+      "contentHash": "314c34dcde137dfa1a69c7fdc979456b",
+      "sourceName": "contracts/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "/Users/ardahurbas/Desktop/landing/aurora-examples/hardhat/erc20/contracts/Multicall2.sol": {
+      "lastModificationDate": 1646951543369,
+      "contentHash": "4357c4dccd60995a5affa38b461e5743",
+      "sourceName": "contracts/Multicall2.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "Multicall2"
       ]
     }
   }

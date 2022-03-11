@@ -1,0 +1,25 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DemoTestWithSetUp",
+  "sourceName": "contracts/ds-test/demo/demo.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "setUp",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "test_pass",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060818061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630a9254e41460375780638ab6815214603f575b600080fd5b603d6047565b005b60456049565b005b565b56fea264697066735822122045a636108ee694b0cd04f11d96562b09b1bbf4826ce74c64aa56f048347a40d464736f6c63430008000033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80630a9254e41460375780638ab6815214603f575b600080fd5b603d6047565b005b60456049565b005b565b56fea264697066735822122045a636108ee694b0cd04f11d96562b09b1bbf4826ce74c64aa56f048347a40d464736f6c63430008000033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
